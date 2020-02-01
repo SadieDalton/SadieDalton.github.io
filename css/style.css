@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+a {
+    color: rgba(199, 208, 228, 0.801);
+  }
+
+body{
+    background-color: #0e2631;
+    font-size: 16px;
+}
+
+header, nav, main,footer{
+    margin: 0 auto;
+    color: rgba(199, 208, 228, 0.801);
+    font-family: Work Sans;
+    
+}
+
+nav{
+    background-color: #1c3c49;
+}
+
+.name{
+    color: rgba(199, 208, 228, 0.801);
+    font-size: 3em;
+    text-align: center;
+    font-family: Work Sans;
+}
+
+.social{
+    text-align: right;
+    padding: 2em;
+}
