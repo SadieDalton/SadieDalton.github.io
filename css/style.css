@@ -7,24 +7,59 @@ a {
 body{
     background-color: #0e2631;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
+    content: 0;
 }
 
-header, nav, main,footer{
+header{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+header img{
+    width: 125px;
+    height: auto;
+    padding-right: 51px;
+}
+
+header, body, nav, main,footer{
     margin: 0 auto;
     color: rgba(199, 208, 228, 0.801);
-    font-family: Work Sans;
-    
+    font-family: Work Sans, Arial, sans-serif;  
+    max-width: 960px; 
 }
 
 nav{
-    background-color: #1c3c49;
+    background-color: #1c3c49;   
+}
+
+img{
+    padding: 10px;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 .name{
     color: rgba(199, 208, 228, 0.801);
-    font-size: 3em;
+    font-size: 2rem;
     text-align: center;
-    font-family: Work Sans;
+    font-family: Work Sans, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.motto{
+    font-style: italic;
+    font-size: 1rem;
+    letter-spacing: 1.5pt;
+    text-align: center;
 }
 
 .social{
