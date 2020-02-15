@@ -9,7 +9,6 @@ body{
     font-size: 16px;
     padding: 0;
     margin: 0;
-    content: 0;
 }
 
 header{
@@ -35,6 +34,17 @@ header, body, nav, main,footer{
 
 nav{
     background-color: #1c3c49;   
+    text-align: center;    
+}
+
+ul  {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
 }
 
 img{
